@@ -9,7 +9,16 @@ body {
     background-color: #F3EBF6;
     font-family: 'Ubuntu', sans-serif;
     background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+    cursor: pointer;
     background: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
+    text-align: center;
+}
+
+.body_backgorund {
+	background-image: none;
+	background-position: center;
+	background-size: cover;
+
 }
 
 .header
@@ -75,9 +84,20 @@ body {
 	margin-top: 15px;
 	width: 50%; 
 }
+
+div {
+    margin: 20px 0;
+  }
+
 .color_white
 {
 	color: white
+}
+
+input{
+    margin:10px;
+    margin-right: 20px;
+
 }
 
 .user_tick
@@ -99,6 +119,11 @@ body {
   line-height: 3;
   text-align: center;
 }
+
+textarea {
+    width: 100%;
+    height: 200px;
+  }
 
 .main {
     background-color: #FFFFFF;
@@ -223,15 +248,21 @@ a {
 
 button {
     margin-top: 10px;
-    padding: 5px 10px;
+    padding: 10px 42px;
     font-size: 16px;
     font-family: Arial, sans-serif;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+
 }
 
 h1{
     font-family: cursive;
     font-style: italic;
     font-weight: bold;
+    font-size: 40px;
+    color: brown;
 }
 
 h4
@@ -273,3 +304,41 @@ img:hover{
 {
     width: 100%;
 }
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  h3
+{
+	width: 1000px;
+	background-color: white;
+	display: inline-block;
+}
+
+p {
+    color: red;
+  }
