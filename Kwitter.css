@@ -1,34 +1,24 @@
 
-html, body 
+html, body
 {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 body {
     background-color: #F3EBF6;
     font-family: 'Ubuntu', sans-serif;
     background-image: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
-    cursor: pointer;
-    background: linear-gradient(to right top, #33a0f1, #2591d9, #1882c1, #0a73aa, #006494);
-    text-align: center;
-}
-
-.body_backgorund {
-	background-image: none;
-	background-position: center;
-	background-size: cover;
-
 }
 
 .header
 {
-    color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
+	color: white;font-family: 'Yeon Sung';font-size: 45px;letter-spacing: 10px;margin-top: 80px;
 }
 
 .header img
 {
-    width: 80px;margin-left: -15px;
+	width: 80px;margin-left: -15px;
 }
 
 .login_div
@@ -56,74 +46,6 @@ body {
 {
 	font-size: 20px; float: right;
 }
-
-.input_div_room_page
-{
-	width: 80%;
-}
-
-.input_div label
-{
-	color: white;font-size: 20px;
-}
-
-.input_div_message_page
-{
-	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
-}
-.input_div_message_page label
-{
-	color: black;
-}
-.input_div_message_page #msg
-{
-	width: 80%;
-}
-.input_div_message_page button
-{
-	margin-top: 15px;
-	width: 50%; 
-}
-
-div {
-    margin: 20px 0;
-  }
-
-.color_white
-{
-	color: white
-}
-
-input{
-    margin:10px;
-    margin-right: 20px;
-
-}
-
-.user_tick
-{
-	width:20px;
-}
-
-.message_h4
-{
-	padding-left:5px;color:grey;
-}
-.copy_right_footer 
-{
-  position: fixed;
-  color: #51c4d3;
-  bottom: 0;
-  width: 100%;
-  background-color: #f5f5f5;
-  line-height: 3;
-  text-align: center;
-}
-
-textarea {
-    width: 100%;
-    height: 200px;
-  }
 
 .main {
     background-color: #FFFFFF;
@@ -236,109 +158,50 @@ a {
     padding: 10px; width:80%;background: rgba(255,255,255,0.8);border-radius: 15px;
     float: none;
     text-align: left;
-    
 }
 
-#text-area {
-    width: 100%;
-    height: 300px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-}
-
-button {
-    margin-top: 10px;
-    padding: 10px 42px;
-    font-size: 16px;
-    font-family: Arial, sans-serif;
-    border: none;
-    background-color: #4CAF50;
-    color: white;
-
-}
-
-h1{
-    font-family: cursive;
-    font-style: italic;
-    font-weight: bold;
-    font-size: 40px;
-    color: brown;
-}
-
-h4
+.input_div_room_page
 {
-    color:red;
+	width: 80%;
 }
 
-#camera
+.input_div label
 {
-    width: 500px;
-    height: 400px;
-    border:1px solid rgb(87, 2, 2);
+	color: white;font-size: 20px;
 }
 
-img
+.input_div_message_page
 {
-    width: 4%;
-    border-radius: 4px;
-    padding: 0px;
-    box-shadow: 0 6px 8px 0 rgba(2, 2, 2, 0.2);
+	position: fixed;bottom: 0px;width: 100%;background: rgba(255,255,255,0.8);
 }
 
-.column
+.input_div_message_page label
 {
-    display: inline;
-    padding: 10px;
-}
-
-img:hover{
-    border-radius: 140px;
-}
-
-.whatsnew
-{
-    margin-bottom: 20px;
-}
-
-#contact_iframe
-{
-    width: 100%;
-}
-
-.topnav {
-	overflow: hidden;
-	background-color: #333;
-	position:sticky;
-	top: 0;
-    width: 100%;
-  }
-  
-  .topnav a {
-	float: left;
-	color: #f2f2f2;
-	font-family: cursive;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
-  }
-  
-  .topnav a:hover {
-	background-color: #bbb;
 	color: black;
-  }
-
-  .topnav-right {
-	float: right;
-  }
-
-  h3
-{
-	width: 1000px;
-	background-color: white;
-	display: inline-block;
 }
 
-p {
-    color: red;
-  }
+.input_div_message_page #msg
+{
+	width: 80%;
+}
+
+.input_div_message_page button
+{
+	margin-top: 15px;
+	width: 50%; 
+}
+
+.color_white
+{
+	color: white
+}
+
+.user_tick
+{
+	width:20px;
+}
+
+.message_h4
+{
+	padding-left:5px;color:grey;
+}
