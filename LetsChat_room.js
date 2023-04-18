@@ -23,7 +23,7 @@ function addRoom(){
           purpose: "adding_room_name"
     });
     localStorage.setItem("room_name", room_name);
-    window.location = "kwitter_page.html";
+    window.location = "LetsChat_page.html";
 
 
 }
@@ -41,7 +41,7 @@ getData();
 function redirectToRoomName(name){
     console.log(name);
     localStorage.setItem("room_name", name);
-    window.location = "kwitter_page.html";
+    window.location = "LetsChat_page.html";
     
 }
 
