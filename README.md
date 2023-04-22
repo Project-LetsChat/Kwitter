@@ -9,3 +9,6 @@ You can check out the more stripped down version's source code here: https://not
 
 Donate:
 LBC: bDtpQMqkXns4EZb2rgASsK2FGW2S7yZbPn
+
+Additional projects related to LetsChat:
+LetsBot: https://github.com/BhargavEkbote/LetsBotBETA.git/
