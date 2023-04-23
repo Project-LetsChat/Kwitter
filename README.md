@@ -1,6 +1,7 @@
 # Lets-Chat
 LetsChat is a social media website.
-This project is licensed under the GPLV3, which means all forks must be licensed under the GPL.
+This project is licensed under the GPLV3, which means all forks must be licensed under the GPL. Specific sections like ip_address.js, cookie.js and sjcl.js are modified versions of code licensed under the Apache License 2.0 and have been relicensed under the GPLV3.
+
 If you find a bug make a Pull request that fixes the bug or file an Issue.
 
 A more stripped down version of the website is being developed on notabug, it is not ready and is more of a test to see how much less code there can be while still keeping some of the basic features intact.
@@ -12,3 +13,4 @@ LBC: bDtpQMqkXns4EZb2rgASsK2FGW2S7yZbPn
 
 Additional projects related to LetsChat:
 LetsBot: https://github.com/BhargavEkbote/LetsBotBETA.git/
+LetsChatMOBILE: https://github.com/BhargavEkbote/LetsChatMOBILE-BETA.git/
