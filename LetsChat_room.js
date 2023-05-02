@@ -2,17 +2,19 @@
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   
   var firebaseConfig = {
-    apiKey: "AIzaSyCh_JWfxBthuwYB4aQZ0iNYAYGbori_Qoc",
-    authDomain: "kwitter-7a62a.firebaseapp.com",
-    databaseURL: "https://kwitter-7a62a-default-rtdb.firebaseio.com",
-    projectId: "kwitter-7a62",
-    storageBucket: "kwitter-7a62a.appspot.com",
-    messagingSenderId: "316531429429",
-    appId: "1:316531429429:web:a8854e48ed3897bf94617c"
+    apiKey: "AIzaSyA3EfEVwtw5ENvyDYKfu9hN29hIcNMjoSY",
+    authDomain: "letschat-837ed.firebaseapp.com",
+    databaseURL: "https://letschat-837ed-default-rtdb.firebaseio.com",
+    projectId: "letschat-837ed",
+    storageBucket: "letschat-837ed.appspot.com",
+    messagingSenderId: "685315873982",
+    appId: "1:685315873982:web:68ababa9cbf3949bab12ef"//, //Remove comma later if necessary.
+    //measurementId: "G-EGNRXHZQES" //measurementId is for permanent databases.
   };
   
   // Initialize Firebase
    firebase.initializeApp(firebaseConfig);
+   //firebase.getAnalytics(app); //Analytics will be disabled for the forseable future.
   //const analytics = getAnalytics(app);
 //ADD YOUR FIREBASE LINKS HERE
 user_name = localStorage.getItem("user_name");
