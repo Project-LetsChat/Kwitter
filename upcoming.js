@@ -3,7 +3,8 @@
 const upcomingFeatures = [
     { title: 'Tutorials', description: 'A Tutorials page has been added to the Navigation bar, it currently only contains 1 video explaining the Basics on how to use LetsChat but it is getting extended with more content.' },
     { title: 'More Apps and Games', description: 'More Apps and Games in the External Services tab.' },
-    { title: 'Image Recognition System', description: 'A camera pops up and you show a object on the camera, it will recognise the object.' }
+    { title: 'Image Recognition System', description: 'A camera pops up and you show a object on the camera, it will recognise the object.' },
+    { title: 'Desktop Client', description: 'A desktop client for LetsChat.'}
   ];
   
   // Get the features container
