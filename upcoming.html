@@ -1,17 +1,19 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <title>Upcoming Features | Your Social Media Platform</title>
+  <link rel="stylesheet" type="text/css" href="upcoming.css">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>External Services</title>
     <script src="cookie.js"></script>
     <script src="ip_address.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
     <script src="LetsChat_page.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
     <script src="LetsChat_room.js"></script>
-    <link rel="stylesheet" href="LetsChat.css">
+    <!--<link rel="stylesheet" href="LetsChat.css">-->
     <script src="LetsChat.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <link rel = "icon" href =  
@@ -22,12 +24,13 @@
         <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
         <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
         <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+        <script src="settings.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
         <script src="sjcl.js"></script>
 </head>
 <body>
 
-    <!--
+<!--
 Navigation bar code here
 -->
 <nav class="navbar-inverse my_nav_bar">
@@ -70,31 +73,25 @@ Navigation bar code here
 	</div>
   </nav>
 
-    
-<center>
-    
-    <section id="game">
-        <h1>Games</h1>
-        <div class="line"></div>
-        <a href="https://studio.code.org/projects/flappy/g72VQ2qARqfHb1hw9h6P8muWyO6e0HC84ZZhVE0OSj8" target="_blank">
-            <img src="flappy.png" alt="FlappyRandomizer" srcset="FlappyRandomizer">
-        </a>
-        
-    </section>
-    <section id="chatbot">
-        <h1>ChatBots</h1>
-        <div class="line"></div>
-        <iframe allow="microphone;" height="430" width="430" src="https://console.dialogflow.com/api-client/demo/embedded/a675261e-35c6-461a-b128-f5901ec8924d"></iframe>
-    </section>
-    
-</center> 
-    
-<script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+  <header>
+    <h1>Upcoming Features for Your Social Media Platform</h1>
+  </header>
+
+  <main>
+    <div id="features-container">
+      <!-- Features will be inserted here by JavaScript -->
+    </div>
+  </main>
+
+  <script src="upcoming.js"></script>
+
+  <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
 <df-messenger
   intent="WELCOME"
   chat-title="LetsBotBETA"
   agent-id="a675261e-35c6-461a-b128-f5901ec8924d"
   language-code="en"
 ></df-messenger>
+
 </body>
 </html>

@@ -1,19 +1,22 @@
  // Your web app's Firebase configuration
   // For Firebase JS SDK v7.20.0 and later, measurementId is optional
   
-  var firebaseConfig = {
-  apiKey: "AIzaSyA3EfEVwtw5ENvyDYKfu9hN29hIcNMjoSY",
-  authDomain: "letschat-837ed.firebaseapp.com",
-  databaseURL: "https://letschat-837ed-default-rtdb.firebaseio.com",
-  projectId: "letschat-837ed",
-  storageBucket: "letschat-837ed.appspot.com",
-  messagingSenderId: "685315873982",
-  appId: "1:685315873982:web:68ababa9cbf3949bab12ef"//, //Remove comma later if necessary.
-  //measurementId: "G-EGNRXHZQES" //measurementId is for databases that are permanent.
-};
+  // TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-// Initialize Firebase
- firebase.initializeApp(firebaseConfig);
+// Your web app's Firebase configuration
+var firebaseConfig = {
+    apiKey: "AIzaSyBPZUiEMRgPvGLIUTS4uj5Xo-KevkPKEyY",
+    authDomain: "letschat-5ee16.firebaseapp.com",
+    databaseURL: "https://letschat-5ee16-default-rtdb.firebaseio.com",
+    projectId: "letschat-5ee16",
+    storageBucket: "letschat-5ee16.appspot.com",
+    messagingSenderId: "387107900863",
+    appId: "1:387107900863:web:db1abd76d239117913a50a"
+  };
+  
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
  //firebase.getAnalytics(app); //Analytics will be disabled for the forseable future.
   //const analytics = getAnalytics(app);
   user_name = localStorage.getItem("user_name");
