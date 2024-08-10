@@ -1,16 +1,6 @@
 # Lets-Chat
 LetsChat is a social media website.
-This project is licensed under the GPLV3, which means all forks must be licensed under the GPL. Specific sections like ip_address.js, cookie.js and sjcl.js are modified versions of code licensed under the Apache License 2.0 and have been relicensed under the GPLV3.
 
-If you find a bug make a Pull request that fixes the bug or file an Issue.
+This is the original version of LetsChat, it is similar to NeoChat because it is the direct predecessor to NeoChat. LetsChat was originally supposed to be a full social media platform, but that idea was abandoned. Now LetsChat is a web framework on which you can build a social media platform, and NeoChat is built on top of it. NeoChat was built on top of the original LetsChat because the original version already had the required features.
 
-A more stripped down version of the website is being developed on notabug, it is not ready and is more of a test to see how much less code there can be while still keeping some of the basic features intact.
-
-You can check out the more stripped down version's source code here: https://notabug.org/Slitnical/LetsChat.git
-
-Donate:
-LBC: bDtpQMqkXns4EZb2rgASsK2FGW2S7yZbPn
-
-Additional projects related to LetsChat:
-LetsBot: https://github.com/BhargavEkbote/LetsBotBETA.git/
-LetsChatMOBILE: https://github.com/BhargavEkbote/LetsChatMOBILE-BETA.git/
+This build has been made public for the sake of history, the login page in this was extracted from the <a href="https://github.com/Project-LetsChat/Math-Quiz.git/">Math-Quiz</a> repo. The login page for this is now the present-day login page in NeoChat.
